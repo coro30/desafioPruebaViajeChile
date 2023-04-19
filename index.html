@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <!--Se importó Navbar desde Boostrap-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
         <a class="navbar-brand" href="#">
             <img src="assets/img/viajes.svg" width="32" class="d-inline-block align top" alt="Logo Viajes Chile">
@@ -46,37 +47,38 @@
     </nav>
 
     <div class="pb-1">
-
+        <!-- Este div vacìo es para que no se monte el nav en el header>-->
     </div>
-
-    <section class="container-fluid expand-lg mt-4 pt-5">
-        <div class="row">
-            <div class="col">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Cordillera">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Isla de Pascua">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Pingüinos">
+    <header>
+        <!-- Aquí se importó el carrousel desde Boostrap-->
+        <section class="container-fluid expand-lg mt-4 pt-5">
+            <div class="row">
+                <div class="col">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Cordillera">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Isla de Pascua">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Pingüinos">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </header>
 
-    <section class="container d-none d-lg-block >hide on screem smaller than lg">
+    <section class="container d-none d-lg-block >hide on screem smaller than lg"> <!--Con esto se logra ocultar esa sección cuando se estè en pantalla pequeña-->
         <div>
             <h4 id=section1>¿Quiénes somos?</h4>
             <hr>
         </div>
         <div class="row">
             <div class="col 4">
-
                 <p class="barra" data-toggle="tooltip" data-placement="top" title="Viaje inolvidable">
                     <i class="fas fa-plane"></i>
                 </p>
@@ -129,8 +131,8 @@
             <h4 id=section2>Destacados</h4>
             <hr>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-md-3 destacados">
+        <div class="row justify-content-center"> <!--Aquí se importó desde Boostrap las cards-->
+            <div class="col-md-3 destacados"> <!--Se usò el sistema de grillas de Boostrap-->
                 <div class="card mx-auto" style="max-width: 18rem">
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="Sur">
                     <div class="card-body bg-info">
@@ -179,7 +181,7 @@
 
     <section>
         <h4 id="formulario">Contacto</h4>
-        <div class="mb-3 formulario">
+        <div class="mb-3 formulario"> <!--Aquí se importó un formulario desde Boostrap-->
             <label for="exampleFormControlInput1" class="form-label">Nombre</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
@@ -195,7 +197,7 @@
     </section>
 
     <footer>
-        <div class="container fluid">
+        <div class="container fluid"> <!--Aquí se usaron clase y grilla de Boostrap-->
             <div class="row">
                 <div class="col-8">
                     <p id="marca" class="pl-5 ">VIAJES CHILE</p>
