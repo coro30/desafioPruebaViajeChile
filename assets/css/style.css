@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+   
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    }
+
+.navbar {
+    background-color: teal;
+    color: white;
+    
+}
+
+h3 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.barra {
+    background-color: teal;
+    text-align: center;
+    height: 33px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+hr {
+    border-color: teal;
+    
+        
+}
+
+p {
+    font-size: 10pt;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.destacados {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer {
+    background-color: teal;
+    height: 110px;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.iconos {
+    text-decoration: none;
+    color: white;
+}
+
+#marca {
+    font-size: 30px;
+}
+
+
+i {
+    color: white;
+}
